@@ -18,7 +18,9 @@
 	<h1>전화번호 리스트</h1>
 	<p>입력한 정보의 내역입니다.</p>
 
-	<%for(PersonVo vo : pList) {%>
+	<%
+		for(PersonVo vo : pList) {
+	%>
 	<table border="1">
 		<colgroup>
 			<col style="width: 120px;">
